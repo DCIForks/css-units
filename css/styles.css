@@ -1,0 +1,58 @@
+:root {
+  /* font-size: 24px; */
+}
+
+html {
+  background-color: black;
+  /* font-size: 48px; */
+}
+
+body {
+  background-color: beige;
+  height: 100vh;
+  margin: 0;
+  font-size: 36px;
+  color: white;
+}
+
+div {
+  background-color: darkred;
+  height: 50px;
+  margin-top: 20px;
+}
+
+div:first-child {
+  margin-top: 0;
+}
+
+div.px {
+  width: 100px;
+}
+
+div.em {
+  width: 10em;
+}
+
+div.rem {
+  width: 10rem;
+}
+
+div.vw {
+  width: 90vw;
+}
+
+div.vh {
+  width: 90vh;
+}
+
+div.vmin {
+  width: 90vmin;
+}
+
+div.vmax {
+  width: 90vmax;
+}
+
+div.percent {
+  width: 90%;
+}
